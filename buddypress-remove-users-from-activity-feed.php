@@ -1,7 +1,7 @@
 <?php
 
 /*
-Plugin Name: BuddyPress Remove Users From Activity Feed
+Plugin Name: BuddyPress: Remove Users From Activity Feed
 Description: Prevents specific users from being displayed in the BP activity feed
 Version:     0.1
 Author:      The team at PIE
@@ -53,4 +53,5 @@ if ( ! class_exists( 'BP_Remove_Users_From_Activity' ) ) {
     	return $sql;
     }
   }
+  new BP_Remove_Users_From_Activity;
 }
